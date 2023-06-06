@@ -23,7 +23,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Recipe App <a name="about-project"></a>
+# 📖 Hello React Rails <a name="about-project"></a>
 
 > Test app used to learn how to integrate React with Rails.
 
