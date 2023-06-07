@@ -17,7 +17,7 @@ const greetingSlice = createSlice({
 export const { setGreeting } = greetingSlice.actions;
 
 export const fetchGreeting = () => async (dispatch) => {
-  const response = await fetch('/api/v1/message');
+  const response = await fetch('/api/v1/random_message');
   const data = await response.json();
   dispatch(setGreeting(data.message));
 };
